@@ -1,5 +1,5 @@
 {
-  "name": "@bolt-design/tokens",
+  "name": "@santakrishnan/bolt-design-tokens",
   "version": "1.0.0",
   "description": "Design tokens and CSS variables for Bolt Design system",
   "main": "src/index.ts",
