@@ -1,5 +1,6 @@
 {
   "branches": ["main"],
+  "tagFormat": "v${version}",
   "plugins": [
     [
       "@semantic-release/commit-analyzer",
@@ -51,7 +52,8 @@
     [
       "@semantic-release/npm",
       {
-        "npmPublish": true
+        "npmPublish": true,
+        "tarballDir": "dist"
       }
     ],
     [
@@ -65,7 +67,13 @@
       "@semantic-release/github",
       {
         "successComment": false,
-        "failComment": false
+        "failComment": false,
+        "assets": [
+          {
+            "path": "dist/*.tgz",
+            "label": "Distribution"
+          }
+        ]
       }
     ]
   ]

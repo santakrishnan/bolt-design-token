@@ -1,5 +1,15 @@
 # Contributing to Bolt Design Tokens
 
+## First Time Setup
+
+If this is the first time setting up semantic-release, run:
+
+```bash
+./setup-semantic-release.sh
+```
+
+This creates the initial git tag so semantic-release knows the current version.
+
 ## Automated Versioning with Semantic Release
 
 This project uses **semantic-release** to automatically version and publish packages based on commit messages.

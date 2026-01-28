@@ -6,6 +6,7 @@
   --font-sans: var(--font-geist-sans), sans-serif;
   --font-serif: var(--font-geist-sans), sans-serif;
   --font-mono: var(--font-geist-mono), monospace;
+  
 
   /* Image rendering */
   --image-rendering-pixelated: pixelated;

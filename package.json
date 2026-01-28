@@ -1,6 +1,6 @@
 {
   "name": "@santakrishnan/bolt-design-tokens",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Design tokens and CSS variables for Bolt Design system",
   "main": "src/index.ts",
   "types": "src/index.ts",
