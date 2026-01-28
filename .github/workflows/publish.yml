@@ -39,7 +39,7 @@ jobs:
             echo "exists=false" >> $GITHUB_OUTPUT
           fi
         env:
-          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NODE_AUTH_TOKEN: ${{ secrets.TOKEN }}
 
       - name: Publish to GitHub Packages
         if: steps.check-version.outputs.exists == 'false'
