@@ -45,7 +45,7 @@ jobs:
         if: steps.check-version.outputs.exists == 'false'
         run: npm publish
         env:
-          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NODE_AUTH_TOKEN: ${{ secrets.TOKEN }}
 
       - name: Skip publishing
         if: steps.check-version.outputs.exists == 'true'
