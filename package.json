@@ -1,0 +1,33 @@
+{
+  "name": "@bolt-design/tokens",
+  "version": "1.0.0",
+  "description": "Design tokens and CSS variables for Bolt Design system",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "files": [
+    "src"
+  ],
+  "exports": {
+    ".": "./src/index.ts",
+    "./tokens.css": "./src/tokens.css",
+    "./themes.css": "./src/themes.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rohan016-dev/bolt-design-tokens.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "keywords": [
+    "design-tokens",
+    "css-variables",
+    "design-system",
+    "tailwind"
+  ],
+  "author": "Bolt Design",
+  "license": "MIT",
+  "peerDependencies": {
+    "tailwindcss": "^4.0.0"
+  }
+}

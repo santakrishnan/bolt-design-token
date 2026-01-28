@@ -1,0 +1,187 @@
+/* Bolt Design - Theme Variants */
+
+/* Default Theme */
+.theme-default {
+  font-family: "Inter", system-ui, -apple-system, sans-serif;
+  font-weight: 400;
+}
+
+.theme-default h1,
+.theme-default h2,
+.theme-default h3,
+.theme-default h4,
+.theme-default h5,
+.theme-default h6 {
+  font-weight: 600;
+}
+
+/* Modern Theme */
+.theme-modern {
+  --primary: oklch(0.55 0.22 264);
+  --primary-foreground: oklch(0.985 0 0);
+  --secondary: oklch(0.92 0.02 264);
+  --secondary-foreground: oklch(0.21 0.006 285.885);
+  --accent: oklch(0.65 0.18 220);
+  --accent-foreground: oklch(0.985 0 0);
+  --ring: oklch(0.55 0.22 264);
+
+  font-family: "Poppins", system-ui, -apple-system, sans-serif;
+  font-weight: 400;
+}
+
+.theme-modern h1,
+.theme-modern h2,
+.theme-modern h3,
+.theme-modern h4,
+.theme-modern h5,
+.theme-modern h6 {
+  font-weight: 600;
+  letter-spacing: -0.02em;
+}
+
+.theme-modern.dark {
+  --primary: oklch(0.65 0.22 264);
+  --primary-foreground: oklch(0.141 0.005 285.823);
+  --secondary: oklch(0.3 0.02 264);
+  --secondary-foreground: oklch(0.985 0 0);
+  --accent: oklch(0.55 0.18 220);
+  --accent-foreground: oklch(0.985 0 0);
+}
+
+/* Professional Theme */
+.theme-professional {
+  --primary: oklch(0.5 0.2 280);
+  --primary-foreground: oklch(0.985 0 0);
+  --secondary: oklch(0.92 0.02 280);
+  --secondary-foreground: oklch(0.21 0.006 285.885);
+  --accent: oklch(0.6 0.15 260);
+  --accent-foreground: oklch(0.985 0 0);
+  --ring: oklch(0.5 0.2 280);
+
+  font-family: "DM Sans", system-ui, -apple-system, sans-serif;
+  font-weight: 500;
+}
+
+.theme-professional h1,
+.theme-professional h2,
+.theme-professional h3,
+.theme-professional h4,
+.theme-professional h5,
+.theme-professional h6 {
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+
+.theme-professional.dark {
+  --primary: oklch(0.6 0.2 280);
+  --primary-foreground: oklch(0.141 0.005 285.823);
+  --secondary: oklch(0.3 0.02 280);
+  --secondary-foreground: oklch(0.985 0 0);
+  --accent: oklch(0.5 0.15 260);
+  --accent-foreground: oklch(0.985 0 0);
+}
+
+/* Minimal Theme */
+.theme-minimal {
+  --primary: oklch(0.45 0.02 260);
+  --primary-foreground: oklch(0.985 0 0);
+  --secondary: oklch(0.95 0.005 260);
+  --secondary-foreground: oklch(0.21 0.006 285.885);
+  --accent: oklch(0.92 0.01 260);
+  --accent-foreground: oklch(0.21 0.006 285.885);
+  --muted: oklch(0.95 0.005 260);
+  --muted-foreground: oklch(0.45 0.02 260);
+  --ring: oklch(0.45 0.02 260);
+
+  font-family: "Instrument Sans", system-ui, -apple-system, sans-serif;
+  font-weight: 400;
+}
+
+.theme-minimal h1,
+.theme-minimal h2,
+.theme-minimal h3,
+.theme-minimal h4,
+.theme-minimal h5,
+.theme-minimal h6 {
+  font-weight: 500;
+  letter-spacing: -0.015em;
+}
+
+.theme-minimal.dark {
+  --primary: oklch(0.75 0.02 260);
+  --primary-foreground: oklch(0.141 0.005 285.823);
+  --secondary: oklch(0.25 0.005 260);
+  --secondary-foreground: oklch(0.985 0 0);
+  --accent: oklch(0.3 0.01 260);
+  --accent-foreground: oklch(0.985 0 0);
+  --muted: oklch(0.25 0.005 260);
+  --muted-foreground: oklch(0.65 0.02 260);
+}
+
+/* Body Theme Classes (for global theme switching) */
+:root:has(body.theme-modern),
+body.theme-modern {
+  --primary: oklch(0.55 0.22 264);
+  --primary-foreground: oklch(0.985 0 0);
+  --secondary: oklch(0.92 0.02 264);
+  --secondary-foreground: oklch(0.21 0.006 285.885);
+  --accent: oklch(0.65 0.18 220);
+  --accent-foreground: oklch(0.985 0 0);
+  --ring: oklch(0.55 0.22 264);
+}
+
+:root:has(body.theme-modern.dark),
+body.theme-modern.dark {
+  --primary: oklch(0.65 0.22 264);
+  --primary-foreground: oklch(0.141 0.005 285.823);
+  --secondary: oklch(0.3 0.02 264);
+  --secondary-foreground: oklch(0.985 0 0);
+  --accent: oklch(0.55 0.18 220);
+  --accent-foreground: oklch(0.985 0 0);
+}
+
+:root:has(body.theme-professional),
+body.theme-professional {
+  --primary: oklch(0.5 0.2 280);
+  --primary-foreground: oklch(0.985 0 0);
+  --secondary: oklch(0.92 0.02 280);
+  --secondary-foreground: oklch(0.21 0.006 285.885);
+  --accent: oklch(0.6 0.15 260);
+  --accent-foreground: oklch(0.985 0 0);
+  --ring: oklch(0.5 0.2 280);
+}
+
+:root:has(body.theme-professional.dark),
+body.theme-professional.dark {
+  --primary: oklch(0.6 0.2 280);
+  --primary-foreground: oklch(0.141 0.005 285.823);
+  --secondary: oklch(0.3 0.02 280);
+  --secondary-foreground: oklch(0.985 0 0);
+  --accent: oklch(0.5 0.15 260);
+  --accent-foreground: oklch(0.985 0 0);
+}
+
+:root:has(body.theme-minimal),
+body.theme-minimal {
+  --primary: oklch(0.45 0.02 260);
+  --primary-foreground: oklch(0.985 0 0);
+  --secondary: oklch(0.95 0.005 260);
+  --secondary-foreground: oklch(0.21 0.006 285.885);
+  --accent: oklch(0.92 0.01 260);
+  --accent-foreground: oklch(0.21 0.006 285.885);
+  --muted: oklch(0.95 0.005 260);
+  --muted-foreground: oklch(0.45 0.02 260);
+  --ring: oklch(0.45 0.02 260);
+}
+
+:root:has(body.theme-minimal.dark),
+body.theme-minimal.dark {
+  --primary: oklch(0.75 0.02 260);
+  --primary-foreground: oklch(0.141 0.005 285.823);
+  --secondary: oklch(0.25 0.005 260);
+  --secondary-foreground: oklch(0.985 0 0);
+  --accent: oklch(0.3 0.01 260);
+  --accent-foreground: oklch(0.985 0 0);
+  --muted: oklch(0.25 0.005 260);
+  --muted-foreground: oklch(0.65 0.02 260);
+}
