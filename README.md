@@ -262,6 +262,8 @@ const mode: ColorMode = "dark";
 
 ## Version Updates
 
+This package uses automated versioning with [semantic-release](https://semantic-release.gitbook.io/). Versions are automatically determined and published based on commit messages.
+
 When new versions are published, update your package:
 
 ```bash
@@ -273,6 +275,12 @@ Or with pnpm:
 ```bash
 pnpm update @santakrishnan/bolt-design-tokens
 ```
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for details on how versioning works.
+
+## Contributing
+
+We use conventional commits for automated versioning. See [CONTRIBUTING.md](CONTRIBUTING.md) for commit message format and guidelines.
 
 ## License
 

@@ -1,11 +1,6 @@
-name: Publish to GitHub Packages
+name: Publish to GitHub Packages (Manual)
 
 on:
-  push:
-    branches:
-      - main
-    tags:
-      - "v*"
   workflow_dispatch:
 
 jobs:
