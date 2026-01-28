@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/santakrishnan/bolt-design-token/compare/v1.0.0...v1.1.0) (2026-01-28)
+
+
+### Features
+
+* add new spacing tokens ([53151d9](https://github.com/santakrishnan/bolt-design-token/commit/53151d99b266a74f6d1c854973a53a01e29746fa))
+
 # 1.0.0 (2026-01-28)
 
 
