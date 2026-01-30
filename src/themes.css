@@ -4,6 +4,12 @@
 .theme-default {
   font-family: "Inter", system-ui, -apple-system, sans-serif;
   font-weight: 400;
+
+  /* Automotive Design Tokens */
+  --card-subtle: hsl(0 0% 97%);
+  --card-elevated: hsl(0 0% 100%);
+  --text-primary: hsl(0 0% 7%);
+  --text-heading: hsl(0 0% 17%);
 }
 
 .theme-default h1,
@@ -13,6 +19,14 @@
 .theme-default h5,
 .theme-default h6 {
   font-weight: 600;
+}
+
+.theme-default.dark {
+  /* Automotive Design Tokens - Dark Mode */
+  --card-subtle: oklch(0.2 0.006 286);
+  --card-elevated: oklch(0.25 0.006 286);
+  --text-primary: oklch(0.98 0 0);
+  --text-heading: oklch(0.95 0 0);
 }
 
 /* Modern Theme */
@@ -27,6 +41,12 @@
 
   font-family: "Poppins", system-ui, -apple-system, sans-serif;
   font-weight: 400;
+
+  /* Automotive Design Tokens */
+  --card-subtle: hsl(0 0% 97%);
+  --card-elevated: hsl(0 0% 100%);
+  --text-primary: hsl(0 0% 7%);
+  --text-heading: hsl(0 0% 17%);
 }
 
 .theme-modern h1,
@@ -46,6 +66,12 @@
   --secondary-foreground: oklch(0.985 0 0);
   --accent: oklch(0.55 0.18 220);
   --accent-foreground: oklch(0.985 0 0);
+
+  /* Automotive Design Tokens - Dark Mode */
+  --card-subtle: oklch(0.2 0.006 286);
+  --card-elevated: oklch(0.25 0.006 286);
+  --text-primary: oklch(0.98 0 0);
+  --text-heading: oklch(0.95 0 0);
 }
 
 /* Professional Theme */
@@ -60,6 +86,12 @@
 
   font-family: "DM Sans", system-ui, -apple-system, sans-serif;
   font-weight: 500;
+
+  /* Automotive Design Tokens */
+  --card-subtle: hsl(0 0% 97%);
+  --card-elevated: hsl(0 0% 100%);
+  --text-primary: hsl(0 0% 7%);
+  --text-heading: hsl(0 0% 17%);
 }
 
 .theme-professional h1,
@@ -79,6 +111,12 @@
   --secondary-foreground: oklch(0.985 0 0);
   --accent: oklch(0.5 0.15 260);
   --accent-foreground: oklch(0.985 0 0);
+
+  /* Automotive Design Tokens - Dark Mode */
+  --card-subtle: oklch(0.2 0.006 286);
+  --card-elevated: oklch(0.25 0.006 286);
+  --text-primary: oklch(0.98 0 0);
+  --text-heading: oklch(0.95 0 0);
 }
 
 /* Minimal Theme */
@@ -95,6 +133,12 @@
 
   font-family: "Instrument Sans", system-ui, -apple-system, sans-serif;
   font-weight: 400;
+
+  /* Automotive Design Tokens */
+  --card-subtle: hsl(0 0% 97%);
+  --card-elevated: hsl(0 0% 100%);
+  --text-primary: hsl(0 0% 7%);
+  --text-heading: hsl(0 0% 17%);
 }
 
 .theme-minimal h1,
@@ -116,6 +160,12 @@
   --accent-foreground: oklch(0.985 0 0);
   --muted: oklch(0.25 0.005 260);
   --muted-foreground: oklch(0.65 0.02 260);
+
+  /* Automotive Design Tokens - Dark Mode */
+  --card-subtle: oklch(0.2 0.006 286);
+  --card-elevated: oklch(0.25 0.006 286);
+  --text-primary: oklch(0.98 0 0);
+  --text-heading: oklch(0.95 0 0);
 }
 
 /* Body Theme Classes (for global theme switching) */

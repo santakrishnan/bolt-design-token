@@ -95,6 +95,46 @@
   --color-3: oklch(69.6% 0.165 251);
   --color-4: oklch(80.2% 0.134 225);
   --color-5: oklch(90.7% 0.231 133);
+
+  /* Automotive Design Tokens */
+  --card-subtle: #F8F8F8;
+  --card-elevated: #FFFFFF;
+  --text-primary: #111111;
+  --text-heading: #2B2B2B;
+
+  /* Typography - Sizes */
+  --text-heading-lg: 2rem;
+  --text-heading-md: 1.25rem;
+  --text-card-title: 1.25rem;
+  --text-card-title-sm: 1rem;
+  --text-card-description: 0.875rem;
+
+  /* Typography - Line Heights */
+  --leading-tight: 1.1;
+  --leading-relaxed: 1.43;
+  --leading-loose: 2.6;
+  --leading-extra-loose: 3.25;
+
+  /* Typography - Letter Spacing */
+  --tracking-tight: -0.04em;
+  --tracking-normal: -0.02em;
+
+  /* Spacing - Card Dimensions */
+  --card-width: 19.25rem;
+  --card-height: 15rem;
+  --card-width-sm: 10.3125rem;
+  --card-image-height: 9.375rem;
+  --card-image-height-sm: 7.75rem;
+
+  /* Spacing - Gaps */
+  --gap-grid: 1.5rem;
+  --gap-grid-sm: 0.75rem;
+  --gap-card: 0.75rem;
+  --gap-card-sm: 0.625rem;
+
+  /* Spacing - Containers */
+  --container-grid: 80rem;
+  --container-grid-sm: 21.375rem;
 }
 
 /* Dark Theme */
@@ -161,4 +201,10 @@
   --color-3: oklch(69.6% 0.165 251);
   --color-4: oklch(80.2% 0.134 225);
   --color-5: oklch(90.7% 0.231 133);
+
+  /* Automotive Design Tokens - Dark Mode */
+  --card-subtle: oklch(0.2 0.006 286);
+  --card-elevated: oklch(0.25 0.006 286);
+  --text-primary: oklch(0.98 0 0);
+  --text-heading: oklch(0.95 0 0);
 }
