@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/santakrishnan/bolt-design-token/compare/v1.1.0...v1.2.0) (2026-01-30)
+
+
+### Features
+
+* add automotive design tokens for cards, typography, and spacing ([7f07106](https://github.com/santakrishnan/bolt-design-token/commit/7f07106c5adfc6215c968804ca1c34c455e42f80))
+
 # [1.1.0](https://github.com/santakrishnan/bolt-design-token/compare/v1.0.0...v1.1.0) (2026-01-28)
 
 
